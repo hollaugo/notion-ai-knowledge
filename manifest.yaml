@@ -1,0 +1,27 @@
+display_information:
+  name: Notion Knowledge
+  description: This bot will answer questions based on the Notion Knowledgebase
+  background_color: "#2a3b6e"
+  long_description: The bot has access to the Notion Knowledgebase. You can use this bot to ask and answer questions about a connected Notion Page. This bot works primarily through the DM channel. 
+features:
+  bot_user:
+    display_name: Notion Knowledge Bot # Fixed typo
+    always_online: true
+oauth_config:
+  scopes:
+    bot:
+      - app_mentions:read
+      - chat:write
+      - im:history
+      - im:write
+      - channels:history
+      - channels:read
+settings:
+  event_subscriptions:
+    bot_events:
+      - app_mention
+      - message.channels
+      - message.im
+  org_deploy_enabled: false
+  socket_mode_enabled: true
+  token_rotation_enabled: false
