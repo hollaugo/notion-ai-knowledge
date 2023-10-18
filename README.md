@@ -15,41 +15,37 @@ This project integrates Notion, OpenAI's GPT-4, and Slack to create a real-time,
 
 Create a `.env` file in your root directory and add the following:
 
-\`\`\`env
+```env
 SLACK_APP_TOKEN=your_slack_app_token
 SLACK_BOT_TOKEN=your_slack_bot_token
 NOTION_API_KEY=your_notion_api_key
 NOTION_PAGE_ID=your_notion_page_id
 OPENAI_API_KEY=your_openai_api_key
-\`\`\`
+```
 
 ### Installation 🛠️
 
 1. Clone the repository:
-
-\`\`\`bash
-git clone https://github.com/hollaugo/notion-ai-knowledge-.git
-\`\`\`
+    ```bash
+    git clone https://github.com/hollaugo/notion-ai-knowledge-.git
+    ```
 
 2. Navigate to the project directory:
-
-\`\`\`bash
-cd notion-ai-knowledge-
-\`\`\`
+    ```bash
+    cd notion-ai-knowledge-
+    ```
 
 3. Install the required packages:
-
-\`\`\`bash
-pip install -r requirements.txt
-\`\`\`
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ## Usage 🖥️
 
 Run the following command to start the bot:
-
-\`\`\`bash
+```bash
 python app.py
-\`\`\`
+```
 
 ## Libraries Used 📚
 
